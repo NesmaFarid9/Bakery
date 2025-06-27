@@ -1,0 +1,220 @@
+/* start simple framWorks */
+.text-alegreya-sans{
+  font-family: "Alegreya Sans";
+}
+.text-alegreya{
+  font-family: "Alegreya", serif;
+}
+.fw-400{
+  font-weight: 400;
+}
+.fw-700{
+  font-weight: 700;
+}
+.text-white-40{
+  color: #ffffffeb;
+}
+.bg-main-color{
+  background-color: #8e7754;
+}
+.text-gray{
+  color: rgb(104, 104, 104);
+}
+/* end simple framWorks */
+/* start nav */
+.nav-link:hover{
+  color: #AE9768 !important;
+  transition: 0.3 all;
+}
+/* end nav */
+/* start header */
+.header-section{
+  background-image: url(../images/drew-coffman-1872.jpg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.inner-header{
+  background: rgba(0, 0, 0, 0.2);
+}
+.p-header{
+  font-size: 1.375rem;
+  line-height: 1.25rem;
+}
+.main-title-h{
+  font-size: 4.75rem;
+  line-height: 5.6875rem;
+}
+.sub-title-h{
+  font-size: 1.5rem;
+  line-height: 2.8125rem;
+  max-width: 43.75rem;
+}
+.learn-btn-h,
+.contact-btn-h{
+  padding: 15px 28px;
+  color: white;
+  font-size: 16px;
+  line-height: 22px;
+  transition: 0.24s ease-in-out;
+}
+.contact-btn-h{
+  border: 2px solid white;
+}
+.learn-btn-h:hover,
+.contact-btn-h:hover{
+  background-color: white;
+  color: black !important;
+  transition: 0.24s ease-in-out;
+}
+.veented-slider-scroll-button-holder {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 40px;
+  text-align: center;
+  z-index: 4;
+}
+a.veented-slider-scroll-button {
+    display: inline-block;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    color: #fff;
+    width: 32px;
+    height: 50px;
+    border-radius: 24px;
+    /* text-indent: -9999px; */
+    position: relative;
+    cursor: pointer;
+}
+a.veented-slider-scroll-button .vntd-mouse-dot {
+    height: 8px;
+    width: 8px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    position: absolute;
+    left: 10px;
+    top: 6px;
+    -webkit-animation: vntd-mouse-animation 2.5s infinite linear;
+    animation: vntd-mouse-animation 2.5s infinite linear;
+}
+.vntd-mouse-animation animation {
+    top: 12.9492px;
+    opacity: 0;
+}
+/* end header */
+/* start sec two && sec location*/
+.circle-sec-two{
+  border: 1px solid #D9D9D9;
+}
+.circle-sec,
+.circle-sec-two{
+  width: 2.9375rem;
+  height: 2.75rem;
+}
+i{
+  font-size: 1.375rem;
+  color: #8e7754;
+}
+.info-sec-two h4,
+.inner-loc-sec h4{
+  font-size: 2rem;
+  line-height: 2.75rem;
+}
+.info-sec-two p,
+.sub-inner-sec-two p,
+.inner-loc-sec p{
+  font-size: 1.0625rem;
+  line-height: 2rem;
+  max-width: 35rem;
+}
+.inner-second-sec img,
+.img-loc-sec img{
+  width: 90%;
+}
+.location-sec,
+.info-sec{
+  background-color: #F8F8F8;
+}
+/* end sec two && sec location*/
+/* start baking */
+.inner-baking h4{
+  font-size: 1.375rem;
+  line-height: 1.875rem;
+}
+.inner-baking p{
+  font-size: 1.0625rem;
+  line-height: 2rem;
+}
+/* end baking */
+/* start about us */
+.about-sec{
+  background-color: #403D38;
+}
+.fa-greater-than{
+  font-size: 0.75rem;
+  color: gray;
+}
+.info-about-4{
+  background-image: url(../images/contact-details-map.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.info-about h4,
+.info-about-4 h4{
+  font-size: 1.125rem;
+  line-height: 1.5625rem;
+}
+.info-about p,
+.info-about-4 p{
+  font-size: 1rem;
+  line-height: 1.875rem;
+  max-width: 17.5rem;
+  color: #969696;
+}
+/* end  about us */
+/* start footer */
+.footer-sec{
+  background-color: #353330;
+}
+.circle-social{
+  width: 44px;
+  height: 44px;
+  background-color: #484540;
+}
+.circle-social i{
+  color: #8c8a86;
+}
+.circle-social:hover i{
+  color: white;
+}
+.f-social:hover,
+.google-social:hover,
+.linked-social:hover,
+.twiter-social:hover{
+  cursor: pointer;
+}
+.f-social:hover{
+  background-color: #3B5998;
+}
+.google-social:hover{
+  background-color: #DD4B39;
+}
+.linked-social:hover{
+  background-color: #007BB5;
+}
+.twiter-social:hover{
+  background-color: #00ACED;
+}
+/* end footer */
+/* nav for scroll */
+.scrolled {
+  background-color: white !important;
+}
+.scrolled .nav-link {
+  color: black !important;
+  border: none !important;
+}
+.border-top{
+  border-top: 4px solid #AE9768 !important;
+}
